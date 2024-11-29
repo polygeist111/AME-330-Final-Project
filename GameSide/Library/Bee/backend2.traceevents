@@ -1,0 +1,376 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1732642148513726, "dur":19032, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732642148532766, "dur":78, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732642148532868, "dur":438, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732642148533700, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732642148533836, "dur":96, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1732642148533324, "dur":2151, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732642148535476, "dur":181735, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732642148717212, "dur":76, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732642148717288, "dur":206, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732642148717494, "dur":126, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732642148717757, "dur":73, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732642148717961, "dur":1366, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1732642148533855, "dur":1763, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732642148535623, "dur":389, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732642148536013, "dur":2753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732642148538783, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1732642148538768, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1732642148555139, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1732642148557610, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732642148557764, "dur":3779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732642148561586, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732642148561796, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732642148565406, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732642148565601, "dur":7592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732642148573236, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1732642148575552, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1732642148577601, "dur":78, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732642148577683, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1732642148579091, "dur":138114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732642148534261, "dur":1542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732642148535804, "dur":3083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732642148538887, "dur":1551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1732642148540439, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732642148540829, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1732642148543562, "dur":6315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732642148549918, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732642148550042, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732642148552366, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732642148552437, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732642148556024, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732642148559915, "dur":957, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732642148556132, "dur":4760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732642148560994, "dur":3090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732642148564117, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732642148564223, "dur":7104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732642148571377, "dur":1551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732642148572961, "dur":8102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1732642148581121, "dur":136209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732642148533565, "dur":1928, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732642148535497, "dur":480, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732642148535977, "dur":2828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732642148538806, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1732642148538907, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732642148557353, "dur":3924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1732642148561416, "dur":3812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732642148565294, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732642148565419, "dur":5928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732642148571377, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732642148571376, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732642148571494, "dur":35553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732642148607084, "dur":110217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732642148533522, "dur":1964, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732642148535489, "dur":3242, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732642148539309, "dur":540, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":4, "ts":1732642148539852, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1732642148539937, "dur":6941, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1732642148546881, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1732642148547246, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Documents\\Schoolwork\\Year 3\\AME 330\\Class Project\\AME 330 Class Project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732642148547328, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Documents\\Schoolwork\\Year 3\\AME 330\\Class Project\\AME 330 Class Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732642148547436, "dur":232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Documents\\Schoolwork\\Year 3\\AME 330\\Class Project\\AME 330 Class Project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732642148547670, "dur":1190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Documents\\Schoolwork\\Year 3\\AME 330\\Class Project\\AME 330 Class Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732642148548862, "dur":1110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Documents\\Schoolwork\\Year 3\\AME 330\\Class Project\\AME 330 Class Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732642148550016, "dur":282, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Documents\\Schoolwork\\Year 3\\AME 330\\Class Project\\AME 330 Class Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732642148550307, "dur":738, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Documents\\Schoolwork\\Year 3\\AME 330\\Class Project\\AME 330 Class Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732642148551188, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player6c11b3f5-inputdata.json" }}
+,{ "pid":12345, "tid":4, "ts":1732642148551290, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":4, "ts":1732642148539851, "dur":11540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1732642148551837, "dur":428, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732642148554395, "dur":152252, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1732642148709651, "dur":6500, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1732642148709650, "dur":6503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1732642148716228, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1732642148534346, "dur":1466, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732642148535813, "dur":2987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732642148538801, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1732642148542925, "dur":139, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732642148540764, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1732642148543440, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732642148548052, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732642148548155, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732642148550547, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732642148552548, "dur":1080, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732642148553697, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732642148556376, "dur":665, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732642148557060, "dur":4614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732642148561704, "dur":1605, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732642148563368, "dur":5810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732642148569252, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732642148569336, "dur":9486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1732642148578868, "dur":138519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732642148533593, "dur":1909, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732642148535505, "dur":548, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732642148536053, "dur":2790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732642148538843, "dur":1648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1732642148540492, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732642148540923, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1732642148542707, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1732642148542851, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732642148543369, "dur":8035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1732642148551564, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732642148555370, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732642148559110, "dur":2628, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732642148555603, "dur":6145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732642148561827, "dur":1488, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732642148563347, "dur":6081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732642148569473, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732642148580983, "dur":76, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732642148569597, "dur":11475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1732642148581105, "dur":136270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732642148533625, "dur":1884, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732642148535512, "dur":413, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732642148535925, "dur":2825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732642148538751, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1732642148539200, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732642148540353, "dur":2597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1732642148543013, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732642148543531, "dur":6553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732642148550116, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Documents\\Schoolwork\\Year 3\\AME 330\\Class Project\\AME 330 Class Project\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732642148550114, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732642148550434, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732642148552606, "dur":1019, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732642148553687, "dur":4338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732642148558087, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732642148558299, "dur":5549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732642148563884, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732642148564016, "dur":6921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732642148571023, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732642148571218, "dur":9037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732642148580294, "dur":137043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732642148533671, "dur":1845, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732642148535519, "dur":404, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732642148535923, "dur":2947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732642148538876, "dur":1706, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1732642148538871, "dur":1713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1732642148540942, "dur":2562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1732642148543537, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732642148547597, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732642148549410, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732642148551790, "dur":261, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732642148549501, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732642148552145, "dur":68, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732642148552214, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732642148552359, "dur":3484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732642148560125, "dur":1040, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732642148555954, "dur":5223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732642148561411, "dur":3829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732642148565460, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732642148565612, "dur":7859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1732642148573542, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1732642148575915, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1732642148577958, "dur":139434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732642148533751, "dur":1771, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732642148535525, "dur":415, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732642148535940, "dur":2858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732642148538814, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1732642148538799, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1732642148538919, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732642148557489, "dur":4603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1732642148562206, "dur":1109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732642148563374, "dur":4987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732642148568420, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732642148568720, "dur":5687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1732642148574473, "dur":992, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1732642148575484, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1732642148577470, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1732642148578998, "dur":138383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732642148533845, "dur":1724, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732642148535576, "dur":517, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732642148536093, "dur":2699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732642148538798, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1732642148538792, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1732642148538872, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732642148547030, "dur":3271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1732642148550332, "dur":416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Documents\\Schoolwork\\Year 3\\AME 330\\Class Project\\AME 330 Class Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732642148550330, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732642148550766, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732642148552553, "dur":1069, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732642148553698, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732642148556367, "dur":750, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732642148557152, "dur":4799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732642148561977, "dur":1555, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732642148563551, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732642148566048, "dur":2462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1732642148568546, "dur":5972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1732642148575656, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1732642148578757, "dur":138452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732642148534154, "dur":1557, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732642148535712, "dur":3036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732642148538751, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1732642148540229, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1732642148542407, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732642148542405, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732642148542854, "dur":6459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732642148549415, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732642148550691, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732642148554734, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732642148554852, "dur":3845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732642148558729, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732642148558901, "dur":1946, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732642148560858, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732642148564034, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732642148564101, "dur":6307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732642148570464, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1732642148570809, "dur":9196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1732642148580038, "dur":137153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148533899, "dur":1788, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148535689, "dur":109, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148535799, "dur":2963, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148538775, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1732642148540480, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1732642148542687, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project.exe" }}
+,{ "pid":12345, "tid":12, "ts":1732642148543644, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148547605, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732642148549446, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732642148552028, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148552209, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732642148555302, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148555387, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732642148558768, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148558901, "dur":2583, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148561490, "dur":3888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732642148565412, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148565625, "dur":5621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732642148571283, "dur":1748, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148580677, "dur":85, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1732642148573051, "dur":7723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1732642148580820, "dur":136220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1732642148533912, "dur":1778, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1732642148535690, "dur":3048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1732642148538761, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1732642148539036, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/app.info" }}
+,{ "pid":12345, "tid":13, "ts":1732642148539512, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/app.info" }}
+,{ "pid":12345, "tid":13, "ts":1732642148541580, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1732642148542216, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1732642148544290, "dur":1599, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1732642148547615, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1732642148549097, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1732642148551918, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1732642148552096, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1732642148555353, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1732642148555508, "dur":2935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1732642148558474, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1732642148558676, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1732642148562037, "dur":1487, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1732642148563540, "dur":6775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1732642148570344, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1732642148570574, "dur":9407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1732642148580140, "dur":136870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1732642148534019, "dur":1675, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1732642148535694, "dur":3047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1732642148538756, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1732642148538742, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1732642148540411, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1732642148542417, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1732642148542415, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1732642148542563, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1732642148542951, "dur":13715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1732642148556701, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1732642148557055, "dur":6747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1732642148563827, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1732642148564009, "dur":6488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1732642148570528, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1732642148570744, "dur":9340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1732642148580123, "dur":137069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1732642148534117, "dur":1579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1732642148535697, "dur":3097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1732642148538795, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1732642148538875, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1732642148547881, "dur":80, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1732642148547993, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1732642148550654, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1732642148554366, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1732642148554700, "dur":3083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1732642148557815, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1732642148558036, "dur":3379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1732642148561521, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1732642148561724, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1732642148561787, "dur":3611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1732642148565438, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1732642148565621, "dur":8126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1732642148573814, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1732642148574133, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1732642148576339, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1732642148578696, "dur":138574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1732642148534146, "dur":1557, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1732642148535703, "dur":3036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1732642148538755, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1732642148538742, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1732642148555703, "dur":7068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1732642148562828, "dur":736, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1732642148563575, "dur":5843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1732642148569451, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1732642148569576, "dur":10992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1732642148580664, "dur":136517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1732642148534174, "dur":1545, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1732642148535720, "dur":3032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1732642148538766, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":17, "ts":1732642148538759, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1732642148539030, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1732642148558639, "dur":3871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1732642148562553, "dur":972, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1732642148563541, "dur":5643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1732642148569223, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1732642148569503, "dur":8582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1732642148578127, "dur":138909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1732642148534380, "dur":1441, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1732642148535821, "dur":2967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1732642148538789, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1732642148540428, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1732642148543418, "dur":4632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":18, "ts":1732642148548083, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1732642148548229, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":18, "ts":1732642148549415, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1732642148549484, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":18, "ts":1732642148551521, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":18, "ts":1732642148554493, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1732642148554665, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1732642148558135, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1732642148558287, "dur":3643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1732642148561960, "dur":1517, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1732642148563500, "dur":6708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1732642148570270, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1732642148570425, "dur":10135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1732642148580600, "dur":136583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1732642148534404, "dur":1423, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1732642148535827, "dur":2980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1732642148538814, "dur":1567, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.49f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":19, "ts":1732642148538808, "dur":1574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1732642148540384, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1732642148540792, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1732642148543026, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1732642148543456, "dur":4210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":19, "ts":1732642148547748, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":19, "ts":1732642148549043, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":19, "ts":1732642148550874, "dur":3916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":19, "ts":1732642148554814, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1732642148558849, "dur":2626, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1732642148555065, "dur":6438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1732642148561599, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1732642148561794, "dur":4438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1732642148566286, "dur":2238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1732642148568553, "dur":9714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1732642148578337, "dur":138672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1732642148534499, "dur":1334, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1732642148535833, "dur":2935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1732642148538769, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1732642148540195, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1732642148543572, "dur":4386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":20, "ts":1732642148548031, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1732642148548122, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":20, "ts":1732642148549543, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":20, "ts":1732642148551928, "dur":441, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1732642148552383, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1732642148555616, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1732642148555791, "dur":3052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1732642148558886, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1732642148559039, "dur":2286, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1732642148561330, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1732642148564566, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1732642148564722, "dur":6342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1732642148571110, "dur":281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1732642148571406, "dur":9098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/Schoolwork/Year 3/AME 330/Alt-Control/AME 330 Class Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1732642148580554, "dur":136809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732642148722182, "dur":1424, "ph":"X", "name": "ProfilerWriteOutput" }
+,
