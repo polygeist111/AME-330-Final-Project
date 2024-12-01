@@ -56,6 +56,14 @@ public class NVBoids : MonoBehaviour
     public string ReportAProblem = "nvjob.github.io/support";
     public string Patrons = "nvjob.github.io/patrons";
 
+    ///
+
+    [Header("Audio Settings")]
+    public AudioSource audioSource;      // The AudioSource for the entire flock
+    public float maxVolume = 1f;         // Maximum volume level
+    public float fadeSpeed = 1f;         // Speed of volume change
+    public float maxDistance = 50f; 
+
     //-------------- 
 
     Transform thisTransform, dangerTransform;
@@ -76,11 +84,19 @@ public class NVBoids : MonoBehaviour
     {
         //--------------
 
-        thisTransform = transform;
+       thisTransform = transform;
         CreateFlock();
         CreateBird();
         StartCoroutine(BehavioralChange());
         StartCoroutine(Danger());
+
+        // Set up audio source properties (make sure it's 3D)
+        if (audioSource != null)
+        {
+            audioSource.spatialBlend = 1f;  // 3D sound
+            audioSource.minDistance = 1f;   // Minimum distance to start hearing audio
+            audioSource.maxDistance = maxDistance; // Maximum distance for fading out
+        }
 
         //--------------
     }
@@ -96,11 +112,39 @@ public class NVBoids : MonoBehaviour
         FlocksMove();
         BirdsMove();
 
+        UpdateAudioVolume();
         //--------------
     }
 
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+  void UpdateAudioVolume()
+    {
+        if (audioSource == null || birdsTransform == null || birdsTransform.Length == 0)
+            return;
+
+        // Calculate the sum of all distances to the camera
+        float totalDistance = 0f;
+
+        foreach (Transform bird in birdsTransform)
+        {
+            if (bird != null)
+            {
+                float distanceToCamera = Vector3.Distance(Camera.main.transform.position, bird.position);
+                totalDistance += distanceToCamera;
+            }
+        }
+
+        // Calculate the average distance
+        float averageDistance = totalDistance / birdsTransform.Length;
+
+        // Calculate the target volume based on the average distance
+        float targetVolume = Mathf.Clamp01(1 - (averageDistance / maxDistance)) * maxVolume;
+
+        // Smoothly adjust the volume using Lerp
+        audioSource.volume = Mathf.Lerp(audioSource.volume, targetVolume, Time.deltaTime * fadeSpeed);
+    }
 
 
     void FlocksMove()
