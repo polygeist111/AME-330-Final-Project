@@ -14,6 +14,10 @@ public class FadeInOut : MonoBehaviour
     private bool isFadingOut = false;
     private bool isVisible = false;
 
+    // Range for random spawning on the X axis
+    public float spawnMinX = -10f;
+    public float spawnMaxX = 10f;
+
     void Start()
     {
         // Get the material
@@ -37,6 +41,7 @@ public class FadeInOut : MonoBehaviour
         {
             if (!isVisible)
             {
+                RandomizePosition(); // Move to a random position before fading in
                 StartFadeIn();
             }
             else
@@ -99,5 +104,13 @@ public class FadeInOut : MonoBehaviour
         isFadingOut = true;
         timer = 0f; // Reset timer for fade-out
         // Do not stop the sound here, it continues to play
+    }
+
+    // Randomize the position of the object within the specified X-axis range
+    private void RandomizePosition()
+    {
+        float randomX = Random.Range(spawnMinX, spawnMaxX);
+        Vector3 newPosition = new Vector3(randomX, transform.position.y, transform.position.z);
+        transform.position = newPosition;
     }
 }

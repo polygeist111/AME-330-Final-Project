@@ -354,6 +354,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.49f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/#NVJOB Boids/Simple Boids/NVBoids.cs"
 "Assets/AudioFader.cs"
+"Assets/Frost/FrostEffect.cs"
 "Assets/Imported Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/RainMaker/Demo/DemoScript.cs"
 "Assets/RainMaker/Demo/DemoScript2D.cs"
