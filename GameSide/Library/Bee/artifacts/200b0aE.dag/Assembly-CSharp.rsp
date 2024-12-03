@@ -365,9 +365,11 @@
 "Assets/RainMaker/Prefab/RainScript2D.cs"
 "Assets/Rocks and Boulders 2/Shaders/RotateGameObject.cs"
 "Assets/Scripts/AudioFader.cs"
+"Assets/Scripts/DataIO (1).cs"
 "Assets/Scripts/DataIO.cs"
 "Assets/Scripts/Fade.cs"
 "Assets/Scripts/GameWindowDisplay.cs"
+"Assets/Scripts/Snow.cs"
 "Assets/Scripts/Test.cs"
 "Assets/Scripts/WorldWindowDisplay.cs"
 -langversion:9.0
