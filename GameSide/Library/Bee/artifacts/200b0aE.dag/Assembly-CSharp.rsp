@@ -356,6 +356,7 @@
 "Assets/AudioFader.cs"
 "Assets/Frost/FrostEffect.cs"
 "Assets/Imported Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
+"Assets/Move.cs"
 "Assets/RainMaker/Demo/DemoScript.cs"
 "Assets/RainMaker/Demo/DemoScript2D.cs"
 "Assets/RainMaker/Demo/DemoScriptStartRainOnSpaceBar.cs"
@@ -367,11 +368,17 @@
 "Assets/Scripts/AudioFader.cs"
 "Assets/Scripts/DataIO (1).cs"
 "Assets/Scripts/DataIO.cs"
+"Assets/Scripts/DayNightCycle.cs"
 "Assets/Scripts/Fade.cs"
 "Assets/Scripts/GameWindowDisplay.cs"
+"Assets/Scripts/MoveWindow.cs"
 "Assets/Scripts/Snow.cs"
 "Assets/Scripts/Test.cs"
 "Assets/Scripts/WorldWindowDisplay.cs"
+"Assets/shannon_AME330Final_integration/Scripts/DataIO.cs"
+"Assets/shannon_AME330Final_integration/Scripts/RockController.cs"
+"Assets/shannon_AME330Final_integration/Scripts/Timer.cs"
+"Assets/shannon_AME330Final_integration/Scripts/UIOverlayController.cs"
 -langversion:9.0
 /deterministic
 /optimize+

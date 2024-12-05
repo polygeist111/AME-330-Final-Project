@@ -4,7 +4,7 @@ using System.Net.Sockets;
 using System.Text;
 using UnityEngine;
 
-public class DataIO : MonoBehaviour
+public class DataIOBase : MonoBehaviour
 {
     public GameObject objectToTrack; // Object to track and send position data
     public int flashlightButtonState;
