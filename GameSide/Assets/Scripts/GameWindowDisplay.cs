@@ -18,8 +18,8 @@ public class GameWindowDisplay : MonoBehaviour
 
         Renderer rend = this.GetComponentInChildren<Renderer>();
 
-        //display last available webcam
-        WebCamTexture tex = new WebCamTexture(devices[devices.Length - 1].name);
+        //display integrated webcam
+        WebCamTexture tex = new WebCamTexture(devices[0].name);
         rend.material.mainTexture = tex;
         tex.Play();
     }

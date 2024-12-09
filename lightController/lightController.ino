@@ -1,43 +1,14 @@
-/*
-Authors: Ariana Cecelic and Tucker Wood
-Created: 03/20/2024
-Modified: 04/06/24
-Description: Code for a kinetic light sculpture project using an RGB LED,
-2 LED strips, hall sensors, and a stepper motor. The purpose of this code
-is to move a hand-fabricated hot air balloon using a stepper motor pulley
-system (which uses a 3D-printed component). Moreover, the RGB LED is
-integrated into the hot air balloon and fades a cadmium orange color from
-0-max brightness. The LED strips act as backing lighting and as written in
-the code use a sine wave to smoothly shift from one color to another. The
-colors used help create a twinkling star effect when
-shone through a hand-fabricated backdrop of cardboard and felt print (of a
-starry sky) with holes poked through. This entire project uses
-minimal wiring to create a hot air balloon moving against a twinkling
-starry night sky.
-Key components
-1x Arduino MEGA
-2x RGB LED Strip
-1x RGB LED
-2x Power Supply Module
-2x 9V1A Adapter
-2x Hall Effect Sensor
-2x 10K ohm resistor
-1x 220 ohm resistor
-1x Stepper motor
-2x 3D printed bracket
-1x 3D printed spacer
-1x 3D printed spacer with crossbar
-1x 3D printed lift arm with hollow core for wires
-1x 3D printed spool
-1x Breadboard
-2x Microbreadboard
-Many jumper wires
-*/
+#include <WiFi.h>
+#include <WiFiUdp.h>
+#include <elapsedMillis.h>
+
 // 1st LED strip
 #include "FastLED.h"
 #define DATA_PIN 11
 #define CLOCK_PIN 10
-#define LED_TYPE DOTSTAR
+//#define LED_TYPE DOTSTAR
+#define WS_PIN 9
+#define LED_TYPE WS2812
 int potIn = A5;
 int potTarget = 0;
 // 2nd LED strip
@@ -49,6 +20,29 @@ int redPin = 7;
 int greenPin = 6;
 int bluePin = 5;
 */
+
+//unity LED data
+int openPercent = 0;
+int targetLED = 0;
+int spreadMod = 0;
+
+//WIFI
+char ssid[] = "Secondary Laptop Network";    // Set your Wi-Fi SSID
+char password[] = "Align23!";    // Set your Wi-Fi password
+int status = WL_IDLE_STATUS;        // Indicator of Wi-Fi status
+
+WiFiUDP udp;
+
+const char* udpAddress = "192.168.137.121"; //IP of Unity computer
+const int udpPort = 7401; //port to send to, theoretically listens on all ports
+
+elapsedMillis sendToUnityTimer;
+elapsedMillis readFromUnityTimer;
+
+long sendToUnityInterval = 40;
+long readFromUnityInterval = 40;
+
+//assorted color stuff
 int hue = 0;
 int lowerHue = 0;
 int upperHue = 15;
@@ -62,13 +56,12 @@ int upperVal = 70.0;
 int valueDirection = 0;
 //led strips
 #define COLOR_ORDER BGR
-const int NUM_LEDS = 16;
+const int NUM_LEDS = 64;
 const int NUM_STRIPS = 1;
 CRGB leds[NUM_STRIPS][NUM_LEDS];
 #define BRIGHTNESS 255
 
 //timers
-#include <elapsedMillis.h>
 elapsedMillis elapsedTime;
 unsigned int interval1 = 3000; // set intervals
 elapsedMillis timing1;
@@ -88,10 +81,30 @@ void setup() {
   //pinMode(greenPin, OUTPUT);
   //pinMode(bluePin, OUTPUT);
   pinMode(potIn, INPUT);
-  Serial.begin(9600);
+  Serial.begin(115200);
+  while (!Serial)  {
+    delay(10);
+  }
+
+  Serial.print("Connecting to Wi-Fi: ");
+  Serial.println(ssid);
+
+  WiFi.begin(ssid, password); //for password networks
+  //WiFi.begin(ssid); //for no password home network
+
+  // Wait for the connection to establish
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(1000);
+    Serial.print(".");
+  }
+  udp.begin(7402);
+  Serial.println("\nWi-Fi connected.");
+  printWifiData();
+  Serial.println("Configuring LEDs");
   //led setup
-  FastLED.addLeds<LED_TYPE, DATA_PIN, CLOCK_PIN, COLOR_ORDER,
-  DATA_RATE_MHZ(12)>(leds[0], NUM_LEDS).setCorrection(TypicalSMD5050);
+  //FastLED.addLeds<LED_TYPE, DATA_PIN, CLOCK_PIN, COLOR_ORDER,
+  //DATA_RATE_MHZ(12)>(leds[0], NUM_LEDS).setCorrection(TypicalSMD5050);
+  FastLED.addLeds<LED_TYPE, WS_PIN, COLOR_ORDER>(leds[0], NUM_LEDS);
   //FastLED.addLeds<LED_TYPE, DATA_PIN2, CLOCK_PIN2, COLOR_ORDER,
   //DATA_RATE_MHZ(12)>(leds[1], NUM_LEDS).setCorrection(TypicalSMD5050);
   FastLED.setBrightness(BRIGHTNESS);
@@ -105,18 +118,19 @@ void setup() {
 
 void loop() {
   //generate led strip sin input
-  sinBeat = beatsin8(10, 50, 255, 0, 0);
-  Serial.println(analogRead(potIn));
-  Serial.println(NUM_LEDS);
-  Serial.println(map(analogRead(potIn), 0, 4095, 0, NUM_LEDS - 1));
-  potTarget = constrain(map(analogRead(potIn), 0, 4095, 0, NUM_LEDS - 1), 0, NUM_LEDS - 1);
-  Serial.println(potTarget);
-  //calculate led strip
-  backdropLighting();
+  //sinBeat = beatsin8(10, 50, 255, 0, 0);
+  //Serial.println(analogRead(potIn));
+  //Serial.println(map(analogRead(potIn), 0, 4095, 0, NUM_LEDS - 1));
+  //potTarget = constrain(map(analogRead(potIn), 0, 4095, 0, NUM_LEDS - 1), 0, NUM_LEDS - 1);
+  //Serial.println(potTarget);
+  //write led strip
+  //sendDataToUnity();
+  readDataFromUnity();
+  //backdropLighting();
   //calculate new rgb led (balloon) color in HSV format
-  rgbHueChange();
+  //rgbHueChange();
   //convert rgb led color to rgb format and write
-  writeRGB();
+  //writeRGB();
   //write led strip
   FastLED.show();
 }
@@ -183,10 +197,11 @@ void writeRGB() {
 // reference: https://forum.arduino.cc/t/controlling-brightness-ws2812b-with-fastleds-beatsin8/915580
 void backdropLighting() {
   if (timing1 > animationInterval) {
-    Serial.println("Writing to strip");
-    Serial.println(sinBeat);
+    //Serial.println("Writing to strip");
+    //Serial.println(sinBeat);
     FastLED.clear();
-    leds[0][potTarget] = CRGB(sinBeat, 255, 255);
+    fill_solid(leds[0], NUM_LEDS, CRGB(sinBeat, 255, 255));
+    //leds[0][potTarget] = CRGB(sinBeat, 255, 255);
     //fill_solid(leds[0][potTarget], NUM_LEDS, CRGB(sinBeat, 255, 255));
     //fill_solid(leds[1], NUM_LEDS, CRGB(sinBeat, 255, 255));
     timing1 = 0;
@@ -238,3 +253,99 @@ void writeColors(double thisRed, double thisGreen, double thisBlue, double m) {
   Serial.println(rgbTimer);
   */
 }
+
+void sendDataToUnity() {
+  if (sendToUnityTimer >= sendToUnityInterval) {
+    sendToUnityTimer = 0;
+    //readFromIMU();
+    char packetBuffer[50];
+    sprintf(packetBuffer, "r: 0, i: 1, j: 2, k: 3");
+    //Serial.print(packetBuffer);
+    //sprintf(packetBuffer,"");
+    udp.beginPacket(udpAddress, udpPort);
+    udp.write((uint8_t*)packetBuffer, strlen(packetBuffer));
+    udp.endPacket();
+    /*
+    */
+  }
+}
+
+void readDataFromUnity() {
+  if (readFromUnityTimer >= readFromUnityInterval) {
+    Serial.print(".");
+    int packetSize = udp.parsePacket();
+    if (packetSize) {
+      char packetBuffer[255];
+      int len = udp.read(packetBuffer, 255);
+      if (len > 0) {
+        packetBuffer[len] = 0;
+      }
+
+      Serial.println(packetBuffer); // Uncomment to display received position data
+
+      //Parse light data
+      sscanf(packetBuffer, "updateLights:bp:%d:tl:%d:sp:%d:end", &openPercent, &targetLED, &spreadMod);
+      writeEnvironmentalLights();
+    }
+  }
+}
+
+void printWifiData() {
+  // Print the Wi-Fi IP address
+  IPAddress ip = WiFi.localIP();
+  Serial.print("IP Address: ");
+  Serial.println(ip);
+
+  // Print the subnet mask
+  IPAddress subnet = WiFi.subnetMask();
+  Serial.print("NetMask: ");
+  Serial.println(subnet);
+
+  // Print the gateway address
+  IPAddress gateway = WiFi.gatewayIP();
+  Serial.print("Gateway: ");
+  Serial.println(gateway);
+  Serial.println("");
+}
+
+void writeEnvironmentalLights() {
+  FastLED.clear();
+  //int value = (int) ((double) 180 * (openPercent / 100.0));
+  //int value = 100;
+  Serial.print(" Open Percent: ");
+  Serial.print(openPercent);
+  int value = (int) (2.55 * (float) openPercent);
+  leds[0][targetLED] = CHSV(130, 166, value);
+  int halfSpread = spreadMod / 2;
+  //count up
+  Serial.print(" Value ");
+  Serial.print(value);
+  Serial.print(" Adjusted Value at distance 5: ");
+  Serial.print((int) ((float) value * (-1.0 * pow(((float) 5 / (float) halfSpread), 2.0) + 1.0)));
+  for (int i = targetLED; i < targetLED + halfSpread; i++) {
+    int target = i;
+    int dist = abs(targetLED - target);
+    if (target > NUM_LEDS) {
+      target = target % NUM_LEDS;
+    }
+    int adjustedValue = (int) ((float) value * (-1.0 * pow(((float) dist / (float) halfSpread), 2.0) + 1.0));
+    //Serial.print("value of led ");
+    //Serial.print(dist);
+    //Serial.print(" from target led ");
+    //Serial.print(target);
+    //Serial.print(": ");
+    //Serial.print(adjustedValue);
+    leds[0][target] = CHSV(130, 166, adjustedValue);
+  }
+  //count down
+  for (int i = 0; i < halfSpread; i++) {
+    int target = targetLED - i;
+    int dist = abs(targetLED - target);
+    if (target < 0) {
+      target = target + NUM_LEDS;
+    }
+    int adjustedValue = (int) ((float) value * (-1.0 * pow(((float) dist / (float) halfSpread), 2.0) + 1.0));
+    leds[0][target] = CHSV(130, 166, adjustedValue);
+  }
+}
+

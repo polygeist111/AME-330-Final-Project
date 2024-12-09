@@ -355,7 +355,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Imported Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/Scripts/DataIO.cs"
+"Assets/Scripts/ExtensionMethods.cs"
 "Assets/Scripts/GameWindowDisplay.cs"
+"Assets/Scripts/WorldLightingController.cs"
 "Assets/Scripts/WorldWindowDisplay.cs"
 -langversion:9.0
 /deterministic
